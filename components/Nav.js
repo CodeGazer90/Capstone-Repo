@@ -1,13 +1,13 @@
-export default () => `
+export default links => `
 <div class="navbar">
 <nav id="divNav">
   <ul>
     ${links
       .map(
-        (el) =>
-          `<li><a href="/${el.title}" title="${el.title}">${el.title}</a></li>`
+        link =>
+          `<li><a href="/${link.title}" title="${link.title}" data-navigo>${link.text}</a></li>`
       )
-      .join()}
+      .join("")}
   </ul>
 <nav>
 </div>`;
