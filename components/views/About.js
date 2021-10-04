@@ -1,33 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Us</title>
-  <link href="style.css" rel="stylesheet"
-</head>
-<body>
-  <header id="indexHeader">
-    <h1>Journey Together</h1>
-  </header>
-
-  <div class="navbar">
-    <nav id="divNav">
-      <ul>
-        <li>
-          <a href="index.html">Home</a>
-          <a href="about.html">About Us</a>
-          <a href="contact.html">Contact Us</a>
-          <a href="">Workout</a>
-          <a href="">Play</a>
-          <a href="">Explore</a>
-        </li>
-      </ul>
-  <nav>
-  </div>
-
-  <div class="aboutText">
+export default () => `
+<div id="about" class="aboutText">
     <h2>A Message From The Creator</h2>
     <p>
       For people like me, working out on your own can sometimes be lonely, and not to mention gets boring very quickly. Even more so if you are not fully aware of all of the options around you or simply feel uncomfortable going by yourself. Having others to join you in your journey can not only make it a lot more fun, but can help motivate you to keep pushing when you feel like giving up.
@@ -47,26 +19,4 @@
                                                                      Kenelle Moore
 
     </p>
-  </div>
-
-  <footer id="footer">
-
-    <div class="footer-basic">
-      <footer>
-
-          <ul class="list-inline">
-              <li class="list-inline-item"><a href="index.html">Home</a></li>
-              <li class="list-inline-item"><a href="about.html">About</a></li>
-              <li class="list-inline-item"><a href="#">Workout</a></li>
-              <li class="list-inline-item"><a href="#">Play</a></li>
-              <li class="list-inline-item"><a href="#">Explore</a></li>
-          </ul>
-          <p class="copyright">Journey Together © 2021</p>
-      </footer>
-  </div>
-  <!-- credit to https://epicbootstrap.com/snippets/footer-basic -->
-</body>
-
-  </footer>
-</body>
-</html>
+  </div>`;
