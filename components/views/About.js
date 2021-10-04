@@ -1,5 +1,5 @@
 export default () => `
-<div id="about" class="aboutText">
+<div id="about">
     <h2>A Message From The Creator</h2>
     <p>
       For people like me, working out on your own can sometimes be lonely, and not to mention gets boring very quickly. Even more so if you are not fully aware of all of the options around you or simply feel uncomfortable going by yourself. Having others to join you in your journey can not only make it a lot more fun, but can help motivate you to keep pushing when you feel like giving up.
