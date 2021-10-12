@@ -1,4 +1,7 @@
-export default () => `
+const kelvinToFahrenheit = kelvinTemp =>
+Math.round((kelvinTemp - 273.15) * (9 / 5) + 32);
+
+export default (st) => `
 <div id="form">
       <form action="https://formspree.io/f/xoqyblvg" method="POST">
         <label id="login">Login</label>
@@ -43,4 +46,13 @@ export default () => `
 
       </div>
 
-    </main>`;
+    </main>
+
+
+
+  <h3>
+  Weather in ${st.weather.city} ${kelvinToFahrenheit(st.weather.temp)}F, feels
+  like ${kelvinToFahrenheit(st.weather.feelsLike)}F
+</h3>
+
+`;
