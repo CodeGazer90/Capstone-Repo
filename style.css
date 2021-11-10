@@ -3,8 +3,10 @@ h1{
   font-size: 48px;
 }
 
+
 body{
-  background: linear-gradient(45deg, #164905,#86eb27, #54a711,#65d30c, #164905);
+  background: linear-gradient(45deg, #164905,#b0ec78, #54a711,#6dee04, #164905);
+  /* #164905,#86eb27, #54a711,#65d30c, #164905 */
   background-size: cover;
   /* background-repeat: no-repeat;
   background-size: cover; */
@@ -81,12 +83,12 @@ justify-content: center;
   nav > ul > li {
     display: inline-block;
     text-decoration: none;
-    border: 1px solid;
+    /* border: 1px solid; */
     padding: .5rem .5rem;
     /* border-radius: 25px; */
     color: black;
     background-color: green;
-    color: black;
+    /* color: black; */
     /* padding: 10px ; */
     border: 3px solid black;
     margin: 10px;
@@ -96,6 +98,25 @@ justify-content: center;
   nav > .fa-bars {
     display: none;
   }
+}
+
+a:visited{
+  color: white;
+}
+
+a:hover{
+  background-color: rgb(58, 179, 58);
+  padding: .5rem .5rem;
+}
+
+button:hover{
+  background-color: rgb(58, 179, 58);
+  padding: .5rem .5rem;
+}
+
+label:hover{
+  background-color: rgb(58, 179, 58);
+  padding: .5rem .5rem;
 }
 
 .pics {
@@ -187,4 +208,4 @@ justify-content: center;
   margin-bottom:0;
 }
 
-/* Credit to https://epicbootstrap.com/snippets/footer-basic */
+

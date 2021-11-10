@@ -3,6 +3,8 @@ export default [
   { title: "About", text: "About" },
   { title: "Contact", text: "Contact" },
   { title: "Workout", text: "Workout" },
-  { title: "Play", text: "Play" }
+  { title: "Play", text: "Play" },
+  { title: "Explore", text: "Explore" }
+
 
 ];
